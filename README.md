@@ -1,24 +1,13 @@
-# README
+# SQUIRREL WORLD
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Squirrel World API provides developers with comprehensive access to all Squirrel World data, including Clans, Squirrels, and most importantly Weapons used by squirrels.
 
-Things you may want to cover:
+# API METHODS
 
-* Ruby version
+## Clans
+* `/v1/clans`: Gets a listing of all clans
+* `/v1/clans/:clan_id`: Gets individual clan information
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Squirrels
+* `/v1/squirrels`: Gets a listing of all squirrels
+* `/v1/squirrels/:squirrel_id`: Gets individual squirrel information
